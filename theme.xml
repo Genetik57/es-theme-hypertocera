@@ -135,8 +135,8 @@ originally based on: "simple" by nils bonenberger
 		<size>1 1</size>
 		<origin>0 0</origin>
 		<color>00000000</color>
-					<logoScale>1.4</logoScale>
-            <logoSize>0.300 0.260</logoSize>
+		<logoScale>1.4</logoScale>
+        <logoSize>0.300 0.260</logoSize>
 		<logoRotation>-6.5</logoRotation>
 		<logoRotationOrigin>4 0.5</logoRotationOrigin>
 		<logoAlignment>right</logoAlignment>
@@ -394,6 +394,20 @@ originally based on: "simple" by nils bonenberger
       <maxSize>0.3 0.126</maxSize>
       <origin>0.5 0.5</origin>
     </image>
+	
+	<image name="md_marquee">
+			<pos>0.80 0.10</pos>
+         <maxSize>0.15 0.12</maxSize>
+         <zIndex>36</zIndex>
+      </image>
+  
+  		  <image name="md_manual">
+         <zIndex>75</zIndex>       
+         <pos>0.25 0.10</pos>
+         <size>0.05 0.085</size>
+         <path>./art/doc_filled.png</path>
+      </image>
+	
     <!--
     <image name="logo2" extra="true">
       <path>./art/splash.svg</path>
